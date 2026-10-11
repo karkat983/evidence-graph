@@ -1,0 +1,16 @@
+[package]
+name = "evidence-graph-entity"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Identity and asset resolution: deterministic-first entity matching with time-bounded aliases."
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
