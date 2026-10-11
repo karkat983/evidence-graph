@@ -1,0 +1,21 @@
+[package]
+name = "evidence-graph-sample"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "A sample that reconstructs a cross-layer incident from multi-engine evidence."
+
+[[bin]]
+name = "evidence-graph-sample"
+path = "src/main.rs"
+
+[dependencies]
+evidence-graph-core = { path = "../evidence-graph-core" }
+evidence-graph-entity = { path = "../evidence-graph-entity" }
+evidence-graph-correlate = { path = "../evidence-graph-correlate" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
