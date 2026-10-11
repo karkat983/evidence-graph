@@ -1,0 +1,16 @@
+[package]
+name = "evidence-graph-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Provenance-aware temporal graph: nodes, time-bounded edges, and bounded traversal."
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
